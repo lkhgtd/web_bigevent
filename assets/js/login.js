@@ -40,7 +40,7 @@ $(function() {
       username: $('#form_reg [name=username]').val(),
       password: $('#form_reg [name=password]').val()
     }
-    $.post('/api/reguser', data, function(res) {
+    $.post('http://www.liulongbin.top:3007/api/reguser', data, function(res) {
       if (res.status !== 0) {
         return layer.msg(res.message)
       }
