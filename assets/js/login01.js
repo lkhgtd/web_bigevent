@@ -60,7 +60,7 @@ if(res.status!==0){
 layer.msg('登录成功')
 localStorage.setItem('token',res.token)
 //跳转到后台主页
-location.href='/index01.html'
+location.href='index.html'
 })
 
 })
